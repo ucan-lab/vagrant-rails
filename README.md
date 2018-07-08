@@ -6,7 +6,19 @@ $ cd vagrant-rails
 $ vagrant up
 ```
 
-# 環境
+## rails install
+
+```
+$ vagrant ssh
+$ cd work
+
+$ bundle init
+$ sed -i -e "s/# gem \"rails\"/gem \"rails\"/" Gemfile
+$ bundle install --path vendor/bundle
+$ bundle exec rails new .
+```
+
+## 環境
 
 | 項目       | 値            |
 | ---------- | ------------- |
