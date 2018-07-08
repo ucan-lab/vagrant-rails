@@ -1,7 +1,6 @@
 # Vagrant
 .vagrant
 package.box
-Vagrantfile
 
 # Common
 .DS_Store
