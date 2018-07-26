@@ -26,15 +26,6 @@ git config --global core.filemode false
 # git ファイル名の大文字・小文字の変更を検知
 git config --global core.ignorecase false
 
-if which heroku >/dev/null 2>&1; then
-  echo -------------------------------------------------
-  echo
-  echo                    Heroku
-  echo
-  echo -------------------------------------------------
-  heroku update
-fi
-
 echo -------------------------------------------------
 echo
 echo                    共通設定

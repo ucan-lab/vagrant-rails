@@ -9,4 +9,3 @@ mkdir -p /usr/local/lib/heroku
 tar --strip-components 1 -zxvf heroku.tar.gz -C /usr/local/lib/heroku 1>/dev/null
 ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
 rm -f heroku.tar.gz
-/usr/local/lib/heroku/bin/heroku update
