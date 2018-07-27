@@ -4,4 +4,4 @@ echo                    SQLite 3
 echo
 echo -------------------------------------------------
 
-yum -y install sqlite
+yum -y install sqlite sqlite-devel
