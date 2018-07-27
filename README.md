@@ -16,6 +16,7 @@ $ bundle init
 $ sed -i -e "s/# gem \"rails\"/gem \"rails\"/" Gemfile
 $ bundle install --path vendor/bundle
 $ bundle exec rails new .
+$ bundle exec rails s
 ```
 
 ## 環境

@@ -51,7 +51,7 @@ echo                    SQLite
 echo
 echo -------------------------------------------------
 
-# . $PROVISION/_sqlite3.sh
+. $PROVISION/_sqlite3.sh
 
 echo -------------------------------------------------
 echo
