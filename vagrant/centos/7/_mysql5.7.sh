@@ -7,7 +7,7 @@ echo
 echo -------------------------------------------------
 
 yum -y install https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
-yum -y install mysql-community-server
+yum -y install mysql-community-server mysql-devel
 
 echo -------------------------------------------------
 echo
